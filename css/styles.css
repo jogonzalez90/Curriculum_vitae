@@ -7,6 +7,7 @@ li{
     line-height: 24px;
 }
 
+/*Contenido prinipal*/
 .contenedor-principal{
     display: flex;
     flex-direction: row-reverse;
@@ -24,8 +25,9 @@ li{
     background-color: yellow;
 }
 
+/* Informacion general */
 .descripcion{
-    background-color: #a1b4d1;
+    /* background-color: #a1b4d1; */
     margin-bottom: 40px;
 }
 
@@ -35,15 +37,63 @@ li{
 }
 
 .educacion{
-    background-color: #a1b4d1;
-    /* margin-bottom: 40px; */
+    
 }
 
 .experiencia-laboral{
-    background-color: #a1b4d1;
-    /* margin-bottom: 40px; */
+    
 }
 
+/* Informacion lateral */
 .informacion-lateral{
     background-color: #1e2939;
+    padding: 40px 0;
+}
+.titulo-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contactos, .afisiones, .habilidades-blandas{
+    margin-left: 40px;
+}
+
+/* Seccion contactos */
+.tipo-contacto{
+    color: white;
+    font-size: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto-info{
+    color: rgb(177, 177, 177);
+    font-size: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+/* Seccion de lista */
+.lista-lateral{
+    padding-left: 17px;
+}
+
+.lista-lateral >li{
+    color: #FB6D3A;
+}
+
+.elemento-lista-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
